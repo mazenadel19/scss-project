@@ -1,0 +1,13 @@
+.ls{
+    list-style-type: none;
+    display: flex;
+    margin-top: $smfontsize;
+    li{
+        padding: 1rem;
+    }
+}
+
+.ls2{
+    display: inline-block;
+    a{text-decoration: none;}
+}

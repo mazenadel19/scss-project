@@ -1,0 +1,39 @@
+
+%btnplaceholder {
+    width: 100px;
+    padding: 5px;
+    border-radius: $cornerradius;
+    display: block;
+    margin: 20px auto;
+}
+
+
+%imgholder{
+    width: 100px;
+    height: 100px;
+    border-radius: $cornerradius;
+}
+
+%tableholder{
+    width: 400px;
+    height: 400px;
+    margin: $lgfontsize auto;
+    tr{
+        background-color: bisque;
+        td{
+            border: 1px solid;
+            text-align: center;
+
+        }
+    }
+}
+
+%listholder{
+    list-style-type: none;
+}
+
+%titleholder{
+    background-color: $bgcolor;
+    color: $fgcolor;
+    text-align: center;
+}

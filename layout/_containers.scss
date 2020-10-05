@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
+}
+
+.containerfluid{
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.black{
+    background-color: $bgcolor;
+}

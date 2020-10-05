@@ -1,0 +1,5 @@
+.header{
+    @extend %titleholder;
+    font-size: $lgfontsize;
+    text-align: left;
+}

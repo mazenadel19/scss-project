@@ -1,0 +1,12 @@
+.aside {
+	border: 3px dashed;
+	border-radius: $cornerradius;
+	background-color: $info;
+	margin: $lgfontsize;
+	padding: $smfontsize;
+	min-width: fit-content;
+}
+
+@media screen and(max-width:780px){
+	.aside{display: none;}
+}

@@ -1,0 +1,7 @@
+.tb{
+    @extend %tableholder;
+    &:hover{
+        color: $primary;
+        background-color: $success;
+    }
+}

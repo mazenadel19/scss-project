@@ -1,0 +1,39 @@
+/*buttons classes*/
+.btn {
+    @extend %btnplaceholder;
+    color: $fgcolor;
+    cursor: pointer;
+}
+
+.btn-lg {
+    font-size: $lgfontsize;
+}
+
+.btn-md {
+
+    font-size: $mdfontsize;
+}
+
+.btn-sm {
+
+    font-size: $smfontsize;
+}
+
+
+// contextual classes
+
+.btn-danger {
+    background-color: $danger;
+}
+
+.btn-success {
+    background-color: $success;
+}
+
+.btn-primary {
+    background-color: $primary;
+}
+
+.btn-info {
+    background-color: $info;
+}
